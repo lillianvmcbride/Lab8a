@@ -1,8 +1,5 @@
 body {
-  margin-left: auto;
-  margin-right: auto;
-  padding-left: 100px;
-  padding-right: 100px;
+  margin: 0 auto;
 }
 
 span {
@@ -35,21 +32,23 @@ li {
 }
 
 main {
-  margin-top: 10px;
-  margin-left: 180px;
+  margin: 0 auto;
+  width: 975px;
 }
 
 img {
   background-color: black;
   margin-top: 20px;
-  margin-right: 24px;
+  padding: 11px;
 }
 
 div {
   margin-top: 10px;
-  margin-left: 180px;
 }
 
+div img {
+  margin-left: 310px;
+}
 
 article {
   float: right;
